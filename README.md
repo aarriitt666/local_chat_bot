@@ -33,29 +33,41 @@ LOCAL_CHAT_BOT/
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/aarriitt666/local_chat_bot.git
    cd local_chat_bot
-   Create and activate a virtual environment:
-   bash
-   Copy code
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   Install dependencies:
-   bash
-   Copy code
-   pip install -r requirements.txt
-   Set up environment variables:
-   Copy .env-example to .env and modify it to fit your environment settings.
-   Initialize the database:
-   bash
-   Copy code
-   alembic upgrade head
-   Usage
-   Run the application using Streamlit:
    ```
 
+   Create and activate a virtual environment:
+
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   ```
+
+   Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   Set up environment variables:
+   Copy .env-example to .env and modify it to fit your environment settings.
+
+   Initialize the database:
+
+   ```bash
+   alembic upgrade head
+   ```
+
+   Usage
+   Run the application using Streamlit:
+
+```bash
 streamlit run chatbot.py
+```
+
 Features
 Real-time chat interface with a conversational AI.
 Persistent chat history stored in a database.
