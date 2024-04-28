@@ -4,7 +4,7 @@ Local Chat Bot is an advanced chatbot application built using Streamlit and powe
 
 ## Project Structure
 
-````plaintext
+```plaintext
 LOCAL_CHAT_BOT/
 ├── alembic/
 │ ├── versions/
@@ -20,6 +20,7 @@ LOCAL_CHAT_BOT/
 ├── models.py
 ├── requirements.txt
 └── settings.py
+```
 
 ## Setup
 
@@ -33,7 +34,7 @@ LOCAL_CHAT_BOT/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/local_chat_bot.git
+   git clone https://github.com/aarriitt666/local_chat_bot.git
    cd local_chat_bot
    Create and activate a virtual environment:
    bash
@@ -52,7 +53,7 @@ LOCAL_CHAT_BOT/
    alembic upgrade head
    Usage
    Run the application using Streamlit:
-````
+   ```
 
 streamlit run chatbot.py
 Features
