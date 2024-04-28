@@ -67,14 +67,18 @@ LOCAL_CHAT_BOT/
    streamlit run chatbot.py
    ```
 
-Features
-Real-time chat interface with a conversational AI.
-Persistent chat history stored in a database.
-Migration management with Alembic.
-Contributing
+## Features
+
+- Real-time chat interface with a conversational AI.
+- Persistent chat history stored in a database.
+- Migration management with Alembic.
+
+## Contributing
+
 Contributions are welcome! Please read the contributing guidelines on how to make contributions.
 
-License
+## License
+
 Distributed under the MIT License. See LICENSE for more information.
 
 This README includes basic sections that are typical for a GitHub project, such as a project description, setup instructions, features, and contribution guidelines. You can modify or extend any section as needed, especially the "Contributing" and "License" sections, depending on your project's specific requirements and policies.
