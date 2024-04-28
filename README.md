@@ -39,34 +39,33 @@ LOCAL_CHAT_BOT/
    cd local_chat_bot
    ```
 
-   Create and activate a virtual environment:
+2. Create and activate a virtual environment:
 
    ```bash
    python -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
    ```
 
-   Install dependencies:
+3. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-   Set up environment variables:
+4. Set up environment variables:
    Copy .env-example to .env and modify it to fit your environment settings.
 
-   Initialize the database:
+5. Initialize the database:
 
    ```bash
    alembic upgrade head
    ```
 
-   Usage
+6. Usage
    Run the application using Streamlit:
-
-```bash
-streamlit run chatbot.py
-```
+   ```bash
+   streamlit run chatbot.py
+   ```
 
 Features
 Real-time chat interface with a conversational AI.
